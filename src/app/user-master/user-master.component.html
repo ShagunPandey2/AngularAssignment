@@ -1,0 +1,22 @@
+
+
+
+<div class="main">  
+<h1 class="heading">DETAILS OF EMPLOYEES</h1>
+
+<div class="flex-container">
+<ul class="list">
+    @for(user of data;track user.id)
+    {
+        <!-- <li><img src="C:\Users\shagun.p_int1590\Desktop\angularlearn\hello-world\src\assets\logo.png"></li> -->
+       <div>
+    <li> 
+        <img src="/assets/logo.png">
+        <app-userdetails [userCard]="user" (userSelected)="onUserSelected($event)"></app-userdetails>
+    </li>
+</div>
+}
+
+</ul>
+</div>
+</div>

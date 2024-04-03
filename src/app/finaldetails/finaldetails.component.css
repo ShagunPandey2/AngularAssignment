@@ -1,0 +1,16 @@
+.flex-container{
+background-color: #f1f1f1;
+text-align: center;
+}
+.flex-container > div {
+    background-color: #d6ec0a;
+    line-height: 25px;
+    font-size: 25px;
+}
+.tabledesign{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border: 30px solid #ddd;
+  padding: 8px;
+  }
+

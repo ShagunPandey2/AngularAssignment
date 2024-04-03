@@ -1,0 +1,38 @@
+<div >
+    
+    <div class="flex-container">
+        <h1>{{users?.name |uppercase}}</h1>
+        <br>
+        <div>
+        <table class="tabledesign">
+            <!-- <th>ID</th>
+             <th>NAME</th> 
+            <th>EMAIL</th>
+            <th>PHONE</th>
+            <th>WEBSITE</th> -->
+            
+           <tr><img src="/assets/emp.png"></tr>
+           <br>
+            <tr><b>Employee Id:</b> {{users?.id}}</tr>
+            <!-- <td>{{users?.name}}</td> -->
+            <tr><b>Employee Email:</b> {{users?.email}}</tr>
+            <tr><b>Employee Mobile Number: </b>{{users?.phone}}</tr>
+            <tr><b>Employee Website:</b> {{users?.website}}</tr>
+            <tr><b>Address:</b>{{users?.address?.street}},{{users?.address?.suite}},<br><b>City:</b>{{users?.address?.city}} , <br>
+               <b> ZipCode:{{users?.address?.zipcode}}</b></tr>
+            <tr>
+                <b>Company:</b>{{users?.company?.name}}
+            </tr>
+    
+        </table>
+    </div>
+        <!-- <div>{{users?.id}}<br>
+        {{users?.username}}<br>
+        {{users?.email}}</div> -->
+
+        <!-- <p>{{users?.username}}</p> -->
+    </div>
+    
+
+
+</div>

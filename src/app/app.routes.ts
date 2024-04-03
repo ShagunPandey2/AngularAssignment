@@ -1,3 +1,11 @@
 import { Routes } from '@angular/router';
+import { UserMasterComponent } from './user-master/user-master.component';
 
-export const routes: Routes = [];
+
+import { FinaldetailsComponent } from './finaldetails/finaldetails.component';
+
+
+export const routes: Routes = [
+    {path:'',component:UserMasterComponent},
+    {path:'userdetails/:id',component:FinaldetailsComponent}
+];

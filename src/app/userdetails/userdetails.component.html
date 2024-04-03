@@ -1,0 +1,7 @@
+<div class="bt">
+   
+<div>
+    <h3>{{userCard.name|uppercase}}</h3>
+   <a  [routerLink]="['/userdetails',userCard.id]"> <button (click)="onSelectUser()">Get Details</button></a>
+
+</div>
